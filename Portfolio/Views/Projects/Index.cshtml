@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Portfolio.Models.Project>
+
+<div class="container mt-4">
+    <h1 class="mb-4">Welcome to My Portfolio</h1>
+
+    <div class="row">
+        @if (Model != null && Model.Any())
+        {
+            @foreach (var project in Model)
+            {
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        @if (!string.IsNullOrEmpty(project.ImagePath))
+                        {
+                            <img src="@project.ImagePath" class="card-img-top" alt="@project.Title" style="height: 200px; object-fit: cover;" />
+                        }
+                        <div class="card-body d-flex flex-column">
+                            <h5 class="card-title">@project.Title</h5>
+                            <p class="card-text text-muted flex-grow-1">@project.Description</p>
+                            <div class="mt-3">
+                                <a href="@project.GitHubUrl" target="_blank" class="btn btn-outline-dark btn-sm">GitHub</a>
+                                <a href="@Url.Action("Detail", "Projects", new { id = project.Id })" class="btn btn-primary btn-sm">Details</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+            <div class="col-12">
+                <p class="text-muted">No projects found in JSON file.</p>
+            </div>
+        }
+    </div>
+</div>

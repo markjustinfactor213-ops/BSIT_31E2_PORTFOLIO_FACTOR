@@ -1,0 +1,50 @@
+[
+  {
+    "Id": 1,
+    "Title": "IT_ELECTIVE_2_NSIT31E2_PREFINAL_EXAM_Factor_MArkjustin",
+    "Description": "Prefinal Exam Answer and Questions.",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/IT_ELECTIVE_2_NSIT31E2_PREFINAL_EXAM_Factor_MArkjustin",
+    "ImagePath": "/images/",
+    "Comments": []
+  },
+  {
+    "Id": 2,
+    "Title": "IT_ELECTIVE_2_MIDTERM_EXAM_1_Factor",
+    "Description": "Midterm Exam 1",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/IT_ELECTIVE_2_MIDTERM_EXAM_1_Factor.git",
+    "ImagePath": "/images/",
+    "Comments": []
+  },
+  {
+    "Id": 3,
+    "Title": "IT_ELECTIVE_2_MIDTERM_Q2_Factor_Justin",
+    "Description": "Midterm Q2",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/-IT_ELECTIVE_2_MIDTERM_Q2_Factor_Justin.git",
+    "ImagePath": "/images/",
+    "Comments": []
+  },
+  {
+    "Id": 4,
+    "Title": "IT_ELECTIVE_2_MIDTERM_H1_H2_H3",
+    "Description": "Midterm H1, H2, H3",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/IT_ELECTIVE_2_MIDTERM_H1_H2_H3.git",
+    "ImagePath": "/images/",
+    "Comments": []
+  },
+  {
+    "Id": 5,
+    "Title": "IT_ELECTIVE_2_Assignment_Factor_Justin",
+    "Description": "Midterm Assigment",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/IT_ELECTIVE_2_Assignment_Factor_Justin.git",
+    "ImagePath": "/images/",
+    "Comments": []
+  },
+  {
+    "Id": 6,
+    "Title": "IT_ELECTIVE_2_MIDTERM_Q2_Factor_MarkJustin",
+    "Description": "Midterm Q2",
+    "GitHubUrl": "https://github.com/markjustinfactor213-ops/-IT_ELECTIVE_2_MIDTERM_Q2_Factor_MarkJustin.-.git",
+    "ImagePath": "/images/",
+    "Comments": []
+  }
+]
